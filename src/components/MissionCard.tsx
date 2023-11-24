@@ -14,21 +14,21 @@ function MissionCard({
 
       <img
         className="mission-icon"
-        src="src/images/year-icon.svg"
+        src="year-icon.svg"
         alt="Mission Year Icon"
       />
       <p id="mission-year">{year}</p>
 
       <img
         className="mission-icon"
-        src="src/images/country-icon.svg"
+        src="country-icon.svg"
         alt="Mission Country Icon"
       />
       <p id="mission-country">{country}</p>
 
       <img
         className="mission-icon"
-        src="src/images/destination-icon.svg"
+        src="destination-icon.svg"
         alt="Mission Destination Icon"
       />
       <p id="mission-destination">{destination}</p>
