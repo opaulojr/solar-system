@@ -1,11 +1,12 @@
 type TitleProps = {
   headline: string
+  idName: string
 };
 
-function Title({ headline }: TitleProps) {
+function Title({ headline, idName }: TitleProps) {
   return (
     <div className="title-component">
-      <h2 className="title-component">{headline}</h2>
+      <h2 id={idName}>{headline}</h2>
     </div>
   );
 }
