@@ -8,7 +8,7 @@ function SolarSystem() {
   return (
     <div className="solar-system-component">
       <Title headline="Planetas" idName="planets-title" />
-      <section id="planets">
+      <section className="planets">
         <hr id="planets-line" />
         {planets.map((planet, index) => (
           <PlanetCard
