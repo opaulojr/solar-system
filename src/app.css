@@ -49,7 +49,7 @@ body {
   justify-content: center;
 }
 
-#planets {
+.planets {
   position: relative;
   display: flex;
   width: 1200px;
